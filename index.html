@@ -1,0 +1,536 @@
+<!--J. PARUNGAO WEB-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CPPROG3 BIOGESIC PROJECT</title>
+     
+     
+
+     <!--ICON TAB ( FAVICON ) OF THE WEBPAGE-->
+    <link rel="icon" href= "1sttablogo.png" 
+          type="image/x-icon"> 
+    <!--ICON TAB OF THE WEBPAGE-->
+
+    <link rel="stylesheet" href="" />
+  </head>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+       
+<h2 class="logo"><a href="#"><img src="1stIcctlogo.jpg" alt=" "></a></h2>
+
+ 
+</styles>
+        
+        <ul class="links">
+          <li><a href="index.html"><i>HOME</i></a></li>
+          <li><a href="devs.html"><i>ASSOCIATES</i></a></li>
+          <li><a href="#footer"><i>ABOUT</i></a></li>
+        
+        
+          <li class="dropdown">
+            <a href="#"><i>LECTURES</i></a>
+            <div class="dropdown-content">
+              <a href="quiz01.html">CHAPTER 1</a>
+              <a href="quiz02.html">CHAPTER 2</a>
+              <a href="quiz03.html">CHAPTER 3</a>
+        </ul>
+
+        
+        <style>
+        
+             .navbar .logo img {
+             width: 6rem;
+             height: 6rem;
+             border-radius: 55px;
+              
+  }
+   /* Dropdown links styling */
+   .navbar .links .dropdown-content a {
+     
+    
+    color: #fff;  
+    font-size: small;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease; 
+    margin-right: 10px;
+     
+  }
+  
+  .navbar .links .dropdown-content a:hover {
+    background-color: #0a8ea5; 
+    border-radius: 25px; 
+    color: #fff;  
+  }
+  
+  
+  .navbar .links .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+.navbar .links .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .navbar .links .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #035164a1;  
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 25px;  
+  }
+  
+   </style>
+
+       
+    </header>
+    
+    <section class="hero-section">
+      <div class="hero">
+        <h2>Hello, We are Group 1</h2>
+        <p>
+          Join us in the exciting world of programming and turn your ideas into
+          reality. Unlock the world of endless possibilities - learn to code and
+          shape the digital future with us.
+        </p>
+
+        
+        
+           
+        </div>
+      </div>
+
+      
+      <div class="img">
+        <img src="1stuserwebpageicon.png" alt="hero image" />
+      </div>
+    </section>
+  </body>
+</html>
+
+ 
+
+ 
+
+<!--CSS OF THE CODE RIGHT THERE AT THE TOP-->
+<style>
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.links a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+     
+}
+ 
+body {
+    background-size: cover;
+    background-position: center;
+   background-image: url(1stfirstpagebg.jpg);
+   
+}
+
+.hero-section .img img {
+    margin-top: 5rem;
+    width: 35rem;
+    height: 35rem;
+  }
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar .links a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0;
+    transition: 0.3s ease;
+  
+ 
+    
+    
+  }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.navbar .logo a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar .links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+}
+
+
+.navbar .links a:hover {
+  color: #03cad8;
+   
+}
+
+.navbar .buttons a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 15px 0;
+  transition: 0.2s ease;
+}
+
+.navbar .buttons a:not(:last-child) {
+  margin-right: 30px;
+}
+
+
+
+.hero-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 95vh;
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-section .hero {
+  max-width: 50%;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #08e7f7;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 70px;
+  color: #c9c7c7;
+}
+
+
+
+.hero-section .buttons {
+  margin-top: 40px;
+}
+
+.hero-section .buttons a {
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+  display: inline-block;
+}
+
+.hero-section .buttons a:not(:last-child) {
+  margin-right: 15px;
+}
+
+ 
+ 
+
+.hero-section .buttons a:hover {
+  background-color: #47b2e4;
+}
+
+/* Hamburger menu styles */
+#menu-toggle {
+  display: none;
+}
+
+#hamburger-btn {
+  font-size: 1.8rem;
+  color: #ffffff;
+  cursor: pointer;
+  display: none;
+  order: 1;
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar .logo a {
+    font-size: 1.5rem;
+  }
+
+  .links {
+    position: fixed;
+    left: -100%;
+    top: 75px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    background: #175d69d5;
+    flex-direction: column;
+    transition: 0.3s ease;
+  }
+
+  .navbar #menu-toggle:checked ~ .links {
+    left: 0;
+  }
+
+  .navbar #hamburger-btn {
+    display: block;
+  }
+
+  .header .buttons {
+    display: none;
+  }
+
+  .hero-section .hero {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-section img {
+    display: none;
+  }
+}
+</style>
+
+
+ 
+ 
+<section class="footer" id="footer">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+   
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   </head>
+<body>
+ <footer>
+   <div class="content">
+     <div class="left box">
+       <div class="upper">
+        
+         <div class="topic">Location</div>
+         <p><i class="fas fa-school"></i> ICCT Bldg, V.V. Soliven Ave II, Cainta, 1900 Rizal
+          ICCT Colleges - Cainta (Main Campus), Address</p>
+          
+           
+       </div>
+       <div class="lower">
+         <div class="topic">Contact us</div>
+         <div class="phone">
+           <a href="#"><i class="fas fa-tty"></i>0970 456 2562</a>
+         </div>
+         <div class="email">
+           <a href="https://sms.icct.edu.ph/login"><i class="fas fa-address-book"></i>https://sms.icct.edu.ph</a><br>
+           <a href="http://icct.edu.ph/contact-us/"><i class="fas fa-address-book"></i>Icct Colleges Contacts</a><br>
+            
+         </div>
+       </div>
+     </div>
+     <div class="middle box">
+       <div class="topic">ICCT Coll. Agendas</div>
+       <div><a href="#"><i class="fas fa-chevron-circle-right"></i>  Information Technoology - IT Month</a></div>
+       <div><a href="#"><i class="fas fa-chevron-circle-right"></i>   Web Designing Program</a></div>
+       <div><a href="#"><i class="fas fa-chevron-circle-right"></i>   Hackaton Program</a></div>
+       <div><a href="#"><i class="fas fa-chevron-circle-right"></i>   AI Development</a></div>
+       <div><a href="#"><i class="fas fa-chevron-circle-right"></i>   RoboThinks</a></div>
+       <div><a href="#"><i class="fas fa-chevron-circle-right"></i>   Broadening Technology</a></div>
+     </div>
+     <div class="right box">
+       <div class="topic"><i class="fa fa-user-circle"></i>  Sent us an Email</div>
+       <form action="#">
+         <input type="text" placeholder="Enter email address">
+         <input type="submit" name="" value="Send">
+         <div class="media-icons">
+           <a href="https://www.facebook.com/icctfan/events/"><i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="https://twitter.com/tweeticct?lang=en"><i class="fab fa-twitter"></i></a>
+           <a href="https://www.youtube.com/@icctcolleges6903"><i class="fab fa-youtube"></i></a>
+           <a href="#"><i class="fab fa-telegram"></i></a>
+         </div>
+       </form>
+     </div>
+   </div>
+    
+ </footer>
+</section>
+</body>
+</html>
+
+ <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+}
+footer{
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+   
+  margin-top: 35px;
+ 
+  padding-top: 20px;
+  width: 100%;
+  position:relative;
+  bottom: 0;
+  left: 0;
+  background:#000000ea;
+
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: #fff;
+  font-size: medium;
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+  margin-left: 40px;
+
+}
+footer .content p{
+  text-align: justify;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 80px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: #000;
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: #02a7b3;
+  outline: none;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #03cad8;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  #06a3eb;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 20px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+   
+}
+.content .media-icons a:hover{
+  border-color: #0453bb;
+}
+ 
+ 
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: #06a3eb;
+}
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0               ;
+  }
+}
+ </style>
+
+ 
+
